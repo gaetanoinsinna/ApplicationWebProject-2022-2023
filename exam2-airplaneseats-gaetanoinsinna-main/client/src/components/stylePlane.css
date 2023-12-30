@@ -1,0 +1,69 @@
+.seat {
+    width: 35px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 35px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:15px;
+    border-radius: 0 !important;
+    margin: 0.5px;
+    
+}
+
+
+.plane {
+    display: grid;
+    justify-items: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.icons {
+    display: flex;
+    font-size: 1.5rem !important;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.brand{
+    display: flex;
+    align-self: stretch;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+
+
+.btn-plane {
+    width: 300px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 300px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:40px;
+    margin: 0.5px;
+
+}
+
+
+.btn-logged{
+    width: 100px;
+    text-align: center;
+    margin: 1px;
+    margin-top: 5px;
+}
+
+.btn-logged-del{
+    width: 200px;
+    text-align: center;
+    margin: 1px;
+    margin-top: 5px;
+}

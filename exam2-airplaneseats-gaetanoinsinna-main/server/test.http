@@ -1,0 +1,77 @@
+GET http://localhost:3001/api/planes HTTP/1.1
+
+###
+
+GET http://localhost:3001/api/reservations HTTP/1.1
+
+###
+
+GET http://localhost:3001/api/planes/2 HTTP/1.1
+
+###
+
+GET http://localhost:3001/api/reservations/4 HTTP/1.1
+
+###
+
+DELETE http://localhost:3001/api/sessions/current HTTP/1.1
+
+###
+
+GET http://localhost:3001/api/sessions/current HTTP/1.1
+
+###
+
+POST http://localhost:3001/api/reservations HTTP/1.1
+content-type: application/json
+
+{
+    
+    "planeId": 1,
+    "row": "B",
+    "seat": "B",
+    "userId": 1
+
+}
+
+###
+
+DELETE http://localhost:3001/api/users/1/reservations HTTP/1.1
+
+###
+
+DELETE http://localhost:3001/api/users/2/reservations HTTP/1.1
+
+###
+
+DELETE http://localhost:3001/api/users/2/reservations HTTP/1.1
+
+###
+PUT http://localhost:3001/api/planes/1 HTTP/1.1
+content-type: application/json
+
+{
+    
+    "numSeats": 5
+
+
+}
+
+###
+
+POST http://localhost:3001/api/users/2/reservations HTTP/1.1
+content-type: application/json
+
+{
+
+    "planeId": 4
+
+
+}
+
+
+
+
+
+
+
